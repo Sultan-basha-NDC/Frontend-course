@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+  .numcon{
+    display:flex;
+    flex-direction: row;
+  }
+  .one{
+    background-color: lightpink;
+    width:200px;
+  }
+  .two{
+    background-color: lightblue;
+    width: 75px;
+  }
+  
+    .numcon2{
+    display:flex;
+    flex-direction: row;
+  }
+  .one2{
+    background-color: lightpink;
+    width:50px;
+  }
+  .two2{
+    background-color: lightblue;
+    flex: 1;
+  }
+  .three2{
+    background-color: lightpink;
+    width: 75px;
+  }
+  .itemcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    height: 50px;
+    align-items: center;
+  }
+  .item1{
+    background-color: lightpink;
+    width: 50px;
+  }
+  .item2{
+    background-color: lightpink;
+    width: 50px;
+  }
+  .fourcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .items1{
+    background-color: lightpink;
+  }
+    .items2{
+    background-color: lightpink;
+  }
+    .items3{
+    background-color: lightpink;
+  }
+    .items4 {
+    background-color: lightpink;
+  }
+  
+  .designcon{
+    border: 1px solid gray;
+    border-radius: 4px;
+  padding:5px;
+  }
+  
+  .homecon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .noticon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .messagecon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .num,.num2,.num3{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    width:30px;
+    border-radius: 14px;
+    text-align: center;
+    font-weight:bold;
+  }
+  
+  .maincon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .catpfp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .pfp{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .details{
+    line-height: 4px;
+  }
+  .catname{
+    font-weight: bold;
+  }
+  .cattype,.catreach{
+    color: gray;
+  }
+  .add{
+background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    font-weight:bold;
+    border: none;
+  }
+  .addbutton{
+display: flex;
+align-items: center;
+  }
+  .seccon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="numcon">
+      <div class="one">200px</div>
+  <div class="two">75px</div>
+    
+  </div>
+  
+  <br>
+  <br>
+    <div class="numcon2">
+      <div class="one2">50px</div>
+  <div class="two2">remaining space</div>
+  <div class="three2">75px</div>
+    
+  </div>
+  <br>
+  <br>
+  
+  <div class="itemcon">
+    <div class="item1">item 1</div>
+    <div class="item2">item 2</div>
+  </div>
+<br>
+<br>
+
+<div class="fourcon">
+  <div class="items1">item 1</div>
+  <div class="items2">item 2</div>
+  <div class="items3">item 3</div>
+  <div class="items4">item 4</div>
+</div>
+
+<br>
+<br>
+
+<div class="designcon">
+  <div class="homecon">
+      <div class="home"> Home</div>
+      <div class="num">14</div>
+  </div>
+<div class="noticon">
+    <div class="noti">Notifications</div>
+    <div class="num2">3</div>
+</div>
+<div class="messagecon">
+ <div class="message">Message</div>
+  <div class="num3">5</div>
+</div>
+
+  
+</div>
+
+
+<br>
+<br>
+
+
+<div class="catscon">
+  <div class="maincon">
+    <div class="seccon">
+          <div class="catpfp">
+      <img src="/images/cat.png" alt="cat" class="pfp">
+    </div>
+    <div class ="details">
+      <p class="catname">oliver</p>
+      <p class="cattype">the cat</p>
+      <p class="catreach">popular</p>
+    </div>
+    </div>
+
+    <div class="addbutton">
+      <button class="add">Follow</button>
+    </div>
+  </div>
+</div>
+<div class="catscon">
+  <div class="maincon">
+    <div class="seccon">
+          <div class="catpfp">
+      <img src="/images/cat.png" alt="cat" class="pfp">
+    </div>
+    <div class ="details">
+      <p class="catname">oliver</p>
+      <p class="cattype">the cat</p>
+      <p class="catreach">popular</p>
+    </div>
+    </div>
+
+    <div class="addbutton">
+      <button class="add">Follow</button>
+    </div>
+  </div>
+</div>
+
+<div class="catscon">
+  <div class="maincon">
+    <div class="seccon">
+          <div class="catpfp">
+      <img src="/images/cat.png" alt="cat" class="pfp">
+    </div>
+    <div class ="details">
+      <p class="catname">oliver</p>
+      <p class="cattype">the cat</p>
+      <p class="catreach">popular</p>
+    </div>
+    </div>
+
+    <div class="addbutton">
+      <button class="add">Follow</button>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
