@@ -26,13 +26,30 @@
       background-color: green;
       color: white;
     }
-    .blackou{
-      background-color: black;
+    .blackout{
+      background-color: rgba(0, 0, 0, 0.8);
       position:fixed;
       top: 0;
       bottom: 0;
       left: 0;
       right:0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .model{
+      background-color: white;
+      padding-left: 10px;
+      padding-right: 140px;
+      padding-bottom: 8px;
+      border-radius: 8px;
+    }
+    .title{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .title2{
+      font-weight: bold;
     }
   </style>
   
@@ -48,7 +65,14 @@
   </div>
   <div class="blackout">
     
+    <div class="model">
+      <p class="title">Model Tittle</p>
+      <p class="title2">this is a model</p>
+      <button class="close">Close</button>
+    </div>
   </div>
+
+
 
 </body>
 
